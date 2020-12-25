@@ -2,16 +2,17 @@
   "name": "martho.github.io",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
-    "develop": "gridsome develop",
-    "explore": "gridsome explore",
+    "build": "npx @11ty/eleventy",
+    "develop": "npx @11ty/eleventy --serve --port=8081",
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d dist"
   },
-  "dependencies": {
-    "gridsome": "^0.7.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "@11ty/eleventy": "^0.11.1",
+    "@gerhobbelt/markdown-it-attrs": "^3.0.3-20",
+    "gh-pages": "^3.1.0",
+    "html-minifier": "^4.0.0"
   }
 }

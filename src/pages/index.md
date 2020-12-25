@@ -1,4 +1,9 @@
-# GitHub user page for user martho
+---
+layout: html_base.njk
+title: Willkommen auf meiner Github user page
+---
+
+# {{ title }} - [{{ project.name }}]({{ project.url }})
 
 ## Setup
 
