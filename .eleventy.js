@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
     let markdown_o = { html: true };
     eleventyConfig.setLibrary('md', markdownIt(markdown_o).use(markdownItAttrs));
 
+    eleventyConfig.addPassthroughCopy({"README.md": "README.md"});
     eleventyConfig.addPassthroughCopy({"src/_assets": "assets"});
 
     eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
