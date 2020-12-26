@@ -3,17 +3,17 @@
 ## Setup
 
 * Plattform: 
-  * <a href="https://nodejs.org/" target="_blank">nodejs</a>
+  * [nodejs](https://nodejs.org/)
 * Static Site Generator: 
-  * <a href="https://www.11ty.dev/" target="_blank">@11ty/eleventy</a>
+  * [@11ty/eleventy](https://www.11ty.dev/)
 * Frontend: 
-  * <a href="https://html.spec.whatwg.org/" target="_blank">HTML</a>,
-  * <a href="https://www.w3.org/Style/CSS/" target="_blank">CSS</a>,
-  * <a href="https://www.ecma-international.org/publications/standards/Ecma-262.htm" target="_blank">JavaScript</a>
-* Templating:
-  * <a href="https://mozilla.github.io/nunjucks/" target="_blank">nunjucks</a> from <a href="https://www.mozilla.org/" target="_blank">Mozilla</a>
+  * [HTML](https://html.spec.whatwg.org/), 
+  * [CSS](https://www.w3.org/Style/CSS/), 
+  * [JavaScript](https://www.ecma-international.org/publications/standards/Ecma-262.htm)
+* Templating: 
+  * [nunjucks](https://mozilla.github.io/nunjucks/) from [Mozilla](https://www.mozilla.org/)
 * Datasource: 
-  * <a href="https://daringfireball.net/projects/markdown/" target="_blank">Markdown</a>, 
-  * <a href="https://www.json.org/" target="_blank">JSON</a>
+  * [Markdown](https://daringfireball.net/projects/markdown/), 
+  * [JSON](https://www.json.org/)
 * Hosting: 
-  * by <a href="https://github.com/" target="_blank">GitHub</a> via <a href="https://pages.github.com/" target="_blank">GitHub pages</a>
+  * by [GitHub](https://github.com/) via [GitHub pages](https://pages.github.com/)
